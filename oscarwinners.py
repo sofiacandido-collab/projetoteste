@@ -7,13 +7,14 @@ st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxZxR57Uvr_NcwcJ
 
 st.write("-----------------------------------------")
 st.markdown('Melhor Filme')
-st.write("Indicados: O Agente Secreto (Leia nossa crítica)
-Uma Batalha Após a Outra (Leia nossa crítica)
-Bugonia (Leia nossa crítica)
-F1: O Filme (Leia nossa crítica)
-Frankenstein (Leia nossa crítica)
-Hamnet (Leia nossa crítica)
-Pecadores (Leia nossa crítica)
-Marty Supreme (Leia nossa crítica)
-Valor Sentimental (Leia nossa crítica)
-Sonhos de Trem (Leia nossa crítica)")
+st.markdown("""Indicados: O Agente Secreto 
+Uma Batalha Após a Outra 
+Bugonia
+F1: O Filme
+Frankenstein
+Hamnet
+Pecadores 
+Marty Supreme 
+Valor Sentimental
+Sonhos de Trem 
+""")
