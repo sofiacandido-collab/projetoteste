@@ -32,3 +32,4 @@ st.markdown("""Sobre esse filme:
 - Ambientação: Estados Unidos, com contexto político e social
 - Produção: Warner Bros. Pictures
 - Tema central: Conflitos pessoais e políticos, com foco em personagens lidando com sistemas de poder e resistência
+""")
