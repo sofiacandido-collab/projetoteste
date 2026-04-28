@@ -7,7 +7,7 @@ st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxZxR57Uvr_NcwcJ
 
 st.write("-----------------------------------------")
 st.markdown('Melhor Filme')
-st.markdown("""Indicados: 
+st.markdown('<small>st.markdown("""Indicados: 
 - O Agente Secreto Uma Batalha Após a Outra 
 - Bugonia
 - F1: O Filme
@@ -17,4 +17,5 @@ st.markdown("""Indicados:
 - Marty Supreme 
 - Valor Sentimental
 - Sonhos de Trem 
-""")
+""")</small>', unsafe_allow_html=True)
+
