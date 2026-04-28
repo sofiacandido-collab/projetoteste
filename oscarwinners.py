@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.title('Vencedores do Oscar 2026')
 st.write("Essa página reúne todos os vencedores dos Oscars 2026")
 
