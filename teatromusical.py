@@ -101,3 +101,50 @@ elif pagina == "Personagens e Elenco":
 - **Ensemble** → grupo que canta/dança/atua sem foco principal  
 - **Cover** → substituto que assume o papel quando necessário  
 """)
+
+import streamlit as st
+import pandas as pd
+
+st.title("Onde o teatro musical acontece")
+
+st.write("Compare os principais centros de teatro musical:")
+
+dados = {
+    "Aspecto": [
+        "Localização",
+        "Importância",
+        "Idioma",
+        "Tipo de produção",
+        "Fama mundial",
+        "Exemplos"
+    ],
+    "Broadway": [
+        "Nova York, EUA",
+        "Maior centro do mundo",
+        "Inglês",
+        "Grandes produções profissionais",
+        "Muito alta",
+        "Hamilton, Wicked"
+    ],
+    "West End": [
+        "Londres, Reino Unido",
+        "Principal da Europa",
+        "Inglês",
+        "Produções de alto nível",
+        "Muito alta",
+        "Les Misérables, Phantom of the Opera"
+    ],
+    "Outros países": [
+        "Brasil, França, Alemanha...",
+        "Crescendo no cenário mundial",
+        "Idioma local",
+        "Adaptações e produções originais",
+        "Média",
+        "Wicked (Brasil), Sherek (Brasil) *EM CARTAZ*, produções nacionais"
+    ]
+}
+
+df = pd.DataFrame(dados)
+df.set_index("Aspecto", inplace=True)
+st.dataframe(df, use_container_width=True)
+st.info("A Broadway e West End são os dois maiores centros de teatro musical do mundo.")
