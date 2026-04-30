@@ -59,28 +59,32 @@ pagina = st.sidebar.radio(
     ["Tipos de músicas", "Elementos de cena", "Personagens e Elenco"]
 )
 
-if pagina == "Tipos de músicas":
-    st.title("Músicas")
-    st.write("Solo → a música é cantada por uma pessoa só
-Dueto → dois personagens cantam
-Ensemble vocal → coral
-Opening Number → primeira música do show
-I Want Song → música onde o personagem revela seu objetivo
-11 o’clock number → música forte perto do final
-Reprise → repetição de uma música com novo significado")
+with st.expander("Tipos de músicas"):
+    st.markdown("""
+- **Solo** → a música é cantada por uma pessoa só  
+- **Dueto** → dois personagens cantam  
+- **Ensemble vocal** → coral  
+- **Opening Number** → primeira música do show  
+- **I Want Song** → música onde o personagem revela seu objetivo  
+- **11 o’clock number** → música forte perto do final  
+- **Reprise** → repetição de uma música com novo significado  
+""")
 
-elif pagina == "Elementos de cena":
-    st.title("Elementos de cena")
-    st.write("Cenário (Set) → ambiente físico
-Figurino → roupas dos personagens
-Props → objetos usados em cena
-Iluminação → luzes do espetáculo
-Sound design → efeitos sonoros")
+with st.expander("Elementos de cena"):
+    st.markdown("""
+- **Cenário (Set)** → ambiente físico  
+- **Figurino** → roupas dos personagens  
+- **Props** → objetos usados em cena  
+- **Iluminação** → luzes do espetáculo  
+- **Sound design** → efeitos sonoros  
+""")
 
-elif pagina == "Personagens e elenco":
-    st.title("Personagens e elenco")
-    st.write("Protagonista → personagem principal
-Antagonista → quem gera conflito
-Coadjuvante → personagens de apoio
-Ensemble → grupo que canta/dança/atua sem foco principal
-Cover → segundo ator escalado para um papel específico, esse atua quando ele faltar
+
+with st.expander("🎬 Personagens e elenco"):
+    st.markdown("""
+- **Protagonista** → personagem principal  
+- **Antagonista** → quem gera conflito  
+- **Coadjuvante** → personagens de apoio  
+- **Ensemble** → grupo que canta/dança/atua sem foco principal  
+- **Cover** → substituto que assume o papel quando necessário  
+""")
