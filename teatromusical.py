@@ -52,6 +52,8 @@ Aqui você vai ver:
 É onde tudo se resolve.
 """)
 
+import streamlit as st
+
 st.sidebar.title("Camarim")
 
 pagina = st.sidebar.radio(
@@ -59,8 +61,12 @@ pagina = st.sidebar.radio(
     ["Tipos de músicas", "Elementos de cena", "Personagens e Elenco"]
 )
 
-with st.expander("Tipos de músicas"):
-    st.markdown("""
+
+if pagina == "Tipos de músicas":
+    st.title("🎶 Tipos de músicas")
+
+    with st.expander("Ver termos", expanded=True):
+        st.markdown("""
 - **Solo** → a música é cantada por uma pessoa só  
 - **Dueto** → dois personagens cantam  
 - **Ensemble vocal** → coral  
@@ -70,8 +76,12 @@ with st.expander("Tipos de músicas"):
 - **Reprise** → repetição de uma música com novo significado  
 """)
 
-with st.expander("Elementos de cena"):
-    st.markdown("""
+
+elif pagina == "Elementos de cena":
+    st.title("🎭 Elementos de cena")
+
+    with st.expander("Ver termos", expanded=True):
+        st.markdown("""
 - **Cenário (Set)** → ambiente físico  
 - **Figurino** → roupas dos personagens  
 - **Props** → objetos usados em cena  
@@ -80,51 +90,14 @@ with st.expander("Elementos de cena"):
 """)
 
 
-with st.expander("🎬 Personagens e elenco"):
-    st.markdown("""
+elif pagina == "Personagens e Elenco":
+    st.title("🎬 Personagens e elenco")
+
+    with st.expander("Ver termos", expanded=True):
+        st.markdown("""
 - **Protagonista** → personagem principal  
 - **Antagonista** → quem gera conflito  
 - **Coadjuvante** → personagens de apoio  
 - **Ensemble** → grupo que canta/dança/atua sem foco principal  
 - **Cover** → substituto que assume o papel quando necessário  
-""")
-
-import streamlit as st
-
-st.sidebar.title("🎭 Guia")
-
-pagina = st.sidebar.radio(
-    "Navegação",
-    ["Tipos de músicas", "Elementos de cena", "Personagens e elenco"]
-)
-
-# MÚSICAS
-if pagina == "Tipos de músicas":
-    st.title("🎶 Músicas")
-
-    with st.expander("Clique para ver os termos"):
-        st.markdown("""
-- **Solo** → uma pessoa canta  
-- **Dueto** → duas pessoas  
-- **Reprise** → repetição da música  
-""")
-
-# ELEMENTOS
-elif pagina == "Elementos de cena":
-    st.title("🎭 Elementos")
-
-    with st.expander("Clique para ver os termos"):
-        st.markdown("""
-- **Cenário** → ambiente  
-- **Figurino** → roupas  
-""")
-
-# PERSONAGENS
-elif pagina == "Personagens e elenco":
-    st.title("🎬 Personagens")
-
-    with st.expander("Clique para ver os termos"):
-        st.markdown("""
-- **Protagonista** → principal  
-- **Ensemble** → grupo  
 """)
