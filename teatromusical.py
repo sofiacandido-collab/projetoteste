@@ -153,5 +153,4 @@ st.markdown("""
 🏆 Tony Awards: principal prêmio da Broadway
 🏆 Olivier Awards: principal do West End
 """)
-
 st.info("EGOT: Alguém que é vencedor de um Emmy, Grammy, Oscar e um TONY")
