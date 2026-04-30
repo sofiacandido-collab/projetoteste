@@ -155,7 +155,7 @@ principal prêmio da Broadway
 <div>
 🏆 Olivier Awards
 principal do West End
-# <div>
+</div>
 """)
 
 st.info("EGOT: Alguém que é vencedor de um Emmy, Grammy, Oscar e um TONY")
