@@ -154,3 +154,86 @@ st.markdown("""
 🏆 Olivier Awards: principal do West End
 """)
 st.info("EGOT: Alguém que é vencedor de um Emmy, Grammy, Oscar e um TONY")
+import streamlit as st
+
+st.set_page_config(page_title="Musicais Famosos")
+
+# Estado
+if "musical" not in st.session_state:
+    st.session_state.musical = None
+
+# Botão voltar
+if st.session_state.musical:
+    if st.button("⬅️ Voltar"):
+        st.session_state.musical = None
+
+# 🎭 LISTA PRINCIPAL
+if st.session_state.musical is None:
+    st.title("🎭 Produções mais famosas")
+
+    st.write("Clique em um musical para ver mais:")
+
+    if st.button("Hamilton"):
+        st.session_state.musical = "Hamilton"
+
+    if st.button("Wicked"):
+        st.session_state.musical = "Wicked"
+
+    if st.button("Beetlejuice"):
+        st.session_state.musical = "Beetlejuice"
+
+    if st.button("Hadestown"):
+        st.session_state.musical = "Hadestown"
+
+    if st.button("Little Shop of Horrors"):
+        st.session_state.musical = "LittleShop"
+
+# 🎬 HAMILTON
+elif st.session_state.musical == "Hamilton":
+    st.title("Hamilton")
+    st.image("https://upload.wikimedia.org/wikipedia/en/8/8f/Hamilton-poster.jpg")
+
+    st.write("""
+Conta a história de Alexander Hamilton, um dos fundadores dos Estados Unidos,
+misturando hip-hop, rap e teatro musical tradicional.
+""")
+
+# 🧙‍♀️ WICKED
+elif st.session_state.musical == "Wicked":
+    st.title("Wicked")
+    st.image("https://upload.wikimedia.org/wikipedia/en/3/3c/Wicked_poster.jpg")
+
+    st.write("""
+Mostra a história das bruxas de Oz antes da chegada de Dorothy,
+explorando amizade, identidade e preconceito.
+""")
+
+# 🪲 BEETLEJUICE
+elif st.session_state.musical == "Beetlejuice":
+    st.title("Beetlejuice")
+    st.image("https://upload.wikimedia.org/wikipedia/en/3/3a/Beetlejuice_musical.jpg")
+
+    st.write("""
+Uma comédia sombria sobre uma garota que faz amizade com um espírito caótico,
+misturando humor, morte e muito caos.
+""")
+
+# 🌿 HADESTOWN
+elif st.session_state.musical == "Hadestown":
+    st.title("Hadestown")
+    st.image("https://upload.wikimedia.org/wikipedia/en/6/6e/Hadestown_poster.jpg")
+
+    st.write("""
+Reconta o mito de Orfeu e Eurídice em um mundo inspirado na Grande Depressão,
+com uma trilha sonora folk e jazz.
+""")
+
+# 🌱 LITTLE SHOP OF HORRORS
+elif st.session_state.musical == "LittleShop":
+    st.title("Little Shop of Horrors")
+    st.image("https://upload.wikimedia.org/wikipedia/en/6/6c/Little_shop_of_horrors_poster.jpg")
+
+    st.write("""
+Conta a história de um jovem que cultiva uma planta carnívora misteriosa
+que traz sucesso… mas exige sacrifícios assustadores.
+""")
