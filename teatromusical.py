@@ -13,7 +13,7 @@ A primeira obra que se aproxima do conceito do teatro musical moderno é datada 
 1728 e se chama A Ópera do Mendigo, composta por John Gay. Entretanto, podemos dizer que o marco inicial do teatro musical foi *Show Boat*, em 1927, música de Jerome David Kern e libreto de Oscar Hammerstein, o primeiro grande espetáculo americano nesse gênero. "") 
 
 st.markdown('E no Brasil:')
-st.write(""O teatro musical chegou ao Brasil no final do século XIX, inicialmente com o “Teatro de Revista”, 
+st.write(""O teatro musical chegou ao Brasil no final do século XIX, inicialmente com o *Teatro de Revista*, um tipo de espetáculo leve e satírico que misturava música, dança e esquetes para comentar acontecimentos e costumes da época. 
 contribuindo para criar uma identidade nacional nos palcos. A primeira adaptação de uma peça da Broadway 
 foi “Minha Querida Lady” (My Fair Lady), estrelada por Bibi Ferreira e Paulo Autran."")
 st.markdown"")
