@@ -150,12 +150,8 @@ st.dataframe(df, use_container_width=True)
 
 st.markdown('**Premiações importantes:**')
 st.write("""
-🏆 Tony Awards
-principal prêmio da Broadway
-<div>
-🏆 Olivier Awards
-principal do West End
-</div>
+🏆 Tony Awards: principal prêmio da Broadway
+🏆 Olivier Awards: principal do West End
 """)
 
 st.info("EGOT: Alguém que é vencedor de um Emmy, Grammy, Oscar e um TONY")
