@@ -3,7 +3,7 @@ import streamlit as st
 st.title('Teatro Musical 101 - Guia para iniciantes!')
 st.write("Tudo que você precisa saber para explorar esse universo!")
 
-st.image("https://i.pinimg.com/1200x/86/c3/33/86c333dde2d4a0d270c319f36e8e073d.jpg", caption="Elenco original da produção de Hamilton da Broadway", width=300)
+st.image("https://i.pinimg.com/1200x/1f/49/d4/1f49d4e8ecacf1f139bba0c73453bcf5.jpg", caption="Elenco original da produção de Hamilton da Broadway", width=300)
 
 st.write("-----------------------------------------")
 st.markdown('**Afinal, o que é teatro musical?**')
