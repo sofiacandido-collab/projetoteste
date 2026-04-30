@@ -15,9 +15,9 @@ contando histórias por meio desses elementos.
 
 st.markdown('**E no Brasil:**')
 st.write("""
-O teatro musical chegou ao Brasil no final do século XIX, inicialmente com o *T*eatro** **de** **Revista**, 
+O teatro musical chegou ao Brasil no final do século XIX, inicialmente com o **Teatro** **de** **Revista**, 
 um tipo de espetáculo leve e satírico que misturava música, dança e esquetes para comentar 
-acontecimentos e costumes da época, A primeira adaptação de uma peça da Broadway foi 
+acontecimentos e costumes da época. A primeira adaptação de uma peça da Broadway foi 
 Minha Querida Lady (My Fair Lady), com Bibi Ferreira e Paulo Autran e, no fim dos anos 60, o teatro nacional 
 era divido entre adaptações de grandes espetáculos como Jesus Cristo Superstar e Rocky Horror Show, mas também contou 
 com produções nacionais, como Roda Viva e Ópera do Malandro.
@@ -51,3 +51,32 @@ Aqui você vai ver:
 
 É onde tudo se resolve.
 """)
+
+st.sidebar.title("Camarim")
+
+pagina = st.sidebar.radio(
+    "Escolha:",
+    ["Tipos de músicas", "Elementos de cena", "Personagens e Elenco"]
+)
+
+if pagina == "Tipos de músicas":
+    st.title("Músicas")
+    st.write("Solo → a música é cantada por uma pessoa só
+Dueto → dois personagens cantam
+Ensemble vocal → coral
+Opening Number → primeira música do show
+I Want Song → música onde o personagem revela seu objetivo
+11 o’clock number → música forte perto do final
+Reprise → repetição de uma música com novo significado")
+
+elsif pagina == "Elementos de cena":
+st.title("📚 Glossário")
+    st.write("Aqui vão os termos importantes...")
+
+elif pagina == "Estrutura":
+    st.title("🎬 Como funciona uma peça")
+    st.write("Explicação de Ato 1, Ato 2...")
+
+elif pagina == "Curiosidades":
+    st.title("🎭 Curiosidades")
+    st.write("Fatos interessantes sobre teatro musical")
