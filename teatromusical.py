@@ -147,14 +147,15 @@ dados = {
 df = pd.DataFrame(dados)
 df.set_index("Aspecto", inplace=True)
 st.dataframe(df, use_container_width=True)
-st.info("A Broadway e West End são os dois maiores centros de teatro musical do mundo.")
 
 st.markdown('**Premiações importantes:**')
 st.write("""
 🏆 Tony Awards
 principal prêmio da Broadway
+<div>
 🏆 Olivier Awards
 principal do West End
+# <div>
 """)
 
 st.info("EGOT: Alguém que é vencedor de um Emmy, Grammy, Oscar e um TONY")
