@@ -69,14 +69,18 @@ I Want Song → música onde o personagem revela seu objetivo
 11 o’clock number → música forte perto do final
 Reprise → repetição de uma música com novo significado")
 
-elsif pagina == "Elementos de cena":
-st.title("📚 Glossário")
-    st.write("Aqui vão os termos importantes...")
+elif pagina == "Elementos de cena":
+    st.title("Elementos de cena")
+    st.write("Cenário (Set) → ambiente físico
+Figurino → roupas dos personagens
+Props → objetos usados em cena
+Iluminação → luzes do espetáculo
+Sound design → efeitos sonoros")
 
-elif pagina == "Estrutura":
-    st.title("🎬 Como funciona uma peça")
-    st.write("Explicação de Ato 1, Ato 2...")
-
-elif pagina == "Curiosidades":
-    st.title("🎭 Curiosidades")
-    st.write("Fatos interessantes sobre teatro musical")
+elif pagina == "Personagens e elenco":
+    st.title("Personagens e elenco")
+    st.write("Protagonista → personagem principal
+Antagonista → quem gera conflito
+Coadjuvante → personagens de apoio
+Ensemble → grupo que canta/dança/atua sem foco principal
+Cover → segundo ator escalado para um papel específico, esse atua quando ele faltar
