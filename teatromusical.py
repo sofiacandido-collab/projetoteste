@@ -148,8 +148,8 @@ df = pd.DataFrame(dados)
 df.set_index("Aspecto", inplace=True)
 st.dataframe(df, use_container_width=True)
 
-st.markdown('**Premiações importantes:**')
-st.write("""
+st.write('**Premiações importantes:**')
+st.markdown("""
 🏆 Tony Awards: principal prêmio da Broadway
 🏆 Olivier Awards: principal do West End
 """)
