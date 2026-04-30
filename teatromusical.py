@@ -88,3 +88,43 @@ with st.expander("🎬 Personagens e elenco"):
 - **Ensemble** → grupo que canta/dança/atua sem foco principal  
 - **Cover** → substituto que assume o papel quando necessário  
 """)
+
+import streamlit as st
+
+st.sidebar.title("🎭 Guia")
+
+pagina = st.sidebar.radio(
+    "Navegação",
+    ["Tipos de músicas", "Elementos de cena", "Personagens e elenco"]
+)
+
+# MÚSICAS
+if pagina == "Tipos de músicas":
+    st.title("🎶 Músicas")
+
+    with st.expander("Clique para ver os termos"):
+        st.markdown("""
+- **Solo** → uma pessoa canta  
+- **Dueto** → duas pessoas  
+- **Reprise** → repetição da música  
+""")
+
+# ELEMENTOS
+elif pagina == "Elementos de cena":
+    st.title("🎭 Elementos")
+
+    with st.expander("Clique para ver os termos"):
+        st.markdown("""
+- **Cenário** → ambiente  
+- **Figurino** → roupas  
+""")
+
+# PERSONAGENS
+elif pagina == "Personagens e elenco":
+    st.title("🎬 Personagens")
+
+    with st.expander("Clique para ver os termos"):
+        st.markdown("""
+- **Protagonista** → principal  
+- **Ensemble** → grupo  
+""")
