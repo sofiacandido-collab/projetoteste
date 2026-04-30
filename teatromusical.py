@@ -24,7 +24,7 @@ com produções nacionais, como Roda Viva e Ópera do Malandro.
 """)
 
 
-st.markdown('**Como funciona uma peça de teatro?**)
+st.markdown('**Como funciona uma peça de teatro?**')
 st.write("Quando chega o horário de começar a peça são tocados três sinais, em que o último representa o início da peça. 
 Elas são divididas em três partes, o primeiro ato, intervalo e o segundo ato.
 
