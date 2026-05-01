@@ -200,10 +200,11 @@ elif st.session_state.musical == "Hamilton":
     e levou o status de Hamilton no conjunto dos Founding Fathers, enquanto o humaniza de uma forma tocante e inspiradora. 
     Sendo considerado o musical americano mais importante dessa geração, ele levou para casa a maioria dos Tony na premiação de 2016.""")
     st.image("https://i.pinimg.com/1200x/d7/74/c5/d774c594a84ed120ef0a6e0878eb9f75.jpg")
-    st.write("""st.write('Em 2016 Hamilton ganhou o prêmio Pulitzer na categoria de Drama, e recebeu um número
+    st.write("""Em 2016 Hamilton ganhou o prêmio Pulitzer na categoria de Drama, e recebeu um número
     inédito de 16 indicações, as quais foram ganhas várias, incluindo o prêmio de Melhor Ator. No total foram 
     conquistados 11 Tonys, quase quebrando o record por um. Hamilton ganhou Melhor Musical e Lin Manuel Miranda
     ganhou Melhor Roteiro e Melhor Trilha Sonora. Em Julho daquele ano, ele fez sua última aparição no musical.""")
+
 # 🧙‍♀️ WICKED
 elif st.session_state.musical == "Wicked":
     st.title("Wicked")
