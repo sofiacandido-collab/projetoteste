@@ -193,7 +193,7 @@ if st.session_state.musical is None:
 
 elif st.session_state.musical == "Hamilton":
     st.title("Hamilton")
-    st.video("https://youtu.be/H7Dl0uZhPvs?si=oBAtt3bayfm0XG8R", caption = 'Satisfied, Hamilton an American Musical')
+    st.video("https://youtu.be/H7Dl0uZhPvs?si=oBAtt3bayfm0XG8R")
     st.image("https://i.pinimg.com/1200x/d7/74/c5/d774c594a84ed120ef0a6e0878eb9f75.jpg")
     st.write("""Hamilton foi criado pelo compositor e liricista Lin-Manuel Miranda. Teve sua estreia como um musical Off-Broadway, ou seja num teatro que comporta entre 99 até 499
     pessoas em 17 de fevereiro de 2015 no Public Theater em Nova York antes de estrear na Broadway no dia 6 de agosto. 
