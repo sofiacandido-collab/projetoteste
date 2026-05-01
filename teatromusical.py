@@ -195,7 +195,7 @@ elif st.session_state.musical == "Hamilton":
     st.write('Hamilton foi criado pelo compositor e liricista Lin-Manuel Miranda. Teve sua estreia como um musical Off-Broadway, ou seja num teatro que comporta entre 99 até 499
     pessoas em 17 de fevereiro de 2015 no Public Theater em Nova York antes de estreiar na Broadway no dia 6 de agosto. Baseado na vida de Alexander Hamilton, esse
     musical impressionante junta hip-hop e Broadway de maneiras jamais vistas antes e elevou o status de Hamilton 
-    no conjunto dos Founding Fathers, enquanto o humaniza de uma forma tocante e inspiradora. Sendo considerado o musical americano mais importante dessa geração, ele levou para casa a maiorida dos Tony na premiação de 2016.
+    no conjunto dos Founding Fathers, enquanto o humaniza de uma forma tocante e inspiradora. Sendo considerado o musical americano mais importante dessa geração, ele levou para casa a maiorida dos Tony na premiação de 2016.')
 
 st.write('Em 2016 Hamilton ganhou o prêmio Pulitzer na categoria de Drama, e recebeu um número inédito de 
 16 indicações, as quais foram ganhas várias, incluindo o prêmio de Melhor Ator. 
