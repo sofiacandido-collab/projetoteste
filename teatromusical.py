@@ -172,20 +172,21 @@ if st.session_state.musical is None:
 
     st.write("Clique em um musical para ver mais:")
 
-    if st.button("Hamilton"):
-        st.session_state.musical = "Hamilton"
+ if st.button("Wicked"):
+    st.session_state.musical = "Wicked"
+    st.rerun()
 
-    if st.button("Wicked"):
-        st.session_state.musical = "Wicked"
+if st.button("Beetlejuice"):
+    st.session_state.musical = "Beetlejuice"
+    st.rerun()
 
-    if st.button("Beetlejuice"):
-        st.session_state.musical = "Beetlejuice"
+if st.button("Hadestown"):
+    st.session_state.musical = "Hadestown"
+    st.rerun()
 
-    if st.button("Hadestown"):
-        st.session_state.musical = "Hadestown"
-
-    if st.button("Little Shop of Horrors"):
-        st.session_state.musical = "LittleShop"
+if st.button("Little Shop of Horrors"):
+    st.session_state.musical = "LittleShop"
+    st.rerun()
 
 
 elif st.session_state.musical == "Hamilton":
