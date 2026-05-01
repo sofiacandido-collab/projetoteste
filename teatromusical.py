@@ -196,11 +196,9 @@ elif st.session_state.musical == "Hamilton":
     pessoas em 17 de fevereiro de 2015 no Public Theater em Nova York antes de estreiar na Broadway no dia 6 de agosto. Baseado na vida de Alexander Hamilton, esse
     musical impressionante junta hip-hop e Broadway de maneiras jamais vistas antes e elevou o status de Hamilton 
     no conjunto dos Founding Fathers, enquanto o humaniza de uma forma tocante e inspiradora. Sendo considerado o musical americano mais importante dessa geração, ele levou para casa a maiorida dos Tony na premiação de 2016.')
-
-st.write('Em 2016 Hamilton ganhou o prêmio Pulitzer na categoria de Drama, e recebeu um número inédito de 
-16 indicações, as quais foram ganhas várias, incluindo o prêmio de Melhor Ator. 
-No total foram conquistados 11 Tonys, quase quebrando o record por um. Hamilton ganhou Melhor Musical e Lin Manuel
-Miranda ganhou Melhor Roteiro e Melhor Trilha Sonora. Em Julho daquele ano, ele fez sua última aparição no musical.')
+    st.write('Em 2016 Hamilton ganhou o prêmio Pulitzer na categoria de Drama, e recebeu um número inédito de 
+    16 indicações, as quais foram ganhas várias, incluindo o prêmio de Melhor Ator. No total foram conquistados 11 Tonys, quase quebrando o record por um. Hamilton ganhou Melhor Musical 
+    e Lin Manuel Miranda ganhou Melhor Roteiro e Melhor Trilha Sonora. Em Julho daquele ano, ele fez sua última aparição no musical.')
 
 # 🧙‍♀️ WICKED
 elif st.session_state.musical == "Wicked":
