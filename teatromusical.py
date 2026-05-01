@@ -205,15 +205,29 @@ elif st.session_state.musical == "Hamilton":
     conquistados 11 Tonys, quase quebrando o record por um. Hamilton ganhou Melhor Musical e Lin Manuel Miranda
     ganhou Melhor Roteiro e Melhor Trilha Sonora. Em Julho daquele ano, ele fez sua última aparição no musical.""")
 
-# 🧙‍♀️ WICKED
+
 elif st.session_state.musical == "Wicked":
     st.title("Wicked")
-    st.image("https://upload.wikimedia.org/wikipedia/en/3/3c/Wicked_poster.jpg")
+    st.video("https://youtu.be/2fR4JotwwWo?si=9GIXvzJ3T1D5Gxs7")
+    st.video("https://youtu.be/68wWliAYP7o?si=QW4sgfAf9EzEQOcy")
+    st.write("""Wicked foi criado pelo compositor e letrista Stephen Schwartz e teve sua 
+    estreia na Broadway no dia 30 de outubro de 2003, no Gershwin Theatre em Nova York. Baseado no 
+    livro *Wicked: The Life and Times of the Wicked Witch of the West*, de Gregory Maguire, o musical 
+    apresenta uma releitura do universo de Oz antes da chegada de Dorothy.
+    
+    A história acompanha a relação entre Elphaba, a futura Bruxa Má do Oeste, e Glinda, mostrando amizade, 
+    conflitos e questões como preconceito e identidade. Com músicas marcantes e uma narrativa emocional, 
+    Wicked se tornou um dos musicais mais populares da Broadway, sendo um enorme sucesso de público e 
+    crítica. Ao longo dos anos, recebeu diversas indicações e prêmios, incluindo o Tony Awards, 
+    consolidando seu lugar como um dos musicais mais importantes do século XXI.""")
 
-    st.write("""
-Mostra a história das bruxas de Oz antes da chegada de Dorothy,
-explorando amizade, identidade e preconceito.
-""")
+    st.image('https://i.pinimg.com/1200x/17/ff/9a/17ff9a65fb7e05aa4c822b288d4e44b9.jpg')
+    st.write("""Wicked já conquistou mais de 100 prêmios ao longo de sua trajetória, 
+    incluindo 3 Tony Awards e 1 Grammy Award, consolidando-se como um dos maiores sucessos da 
+    Broadway; além disso, o musical já teve mais de 15 produções oficiais ao redor do mundo, passando 
+    por países como Estados Unidos, Reino Unido, Austrália, Alemanha, Japão, Brasil e Coreia do Sul.""")
+
+
 
 # 🪲 BEETLEJUICE
 elif st.session_state.musical == "Beetlejuice":
