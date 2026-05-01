@@ -251,23 +251,49 @@ elif st.session_state.musical == "Beetlejuice":
     um musical contemporâneo de grande relevância.""")
 
     
-
-# 🌿 HADESTOWN
 elif st.session_state.musical == "Hadestown":
     st.title("Hadestown")
-    st.image("https://upload.wikimedia.org/wikipedia/en/6/6e/Hadestown_poster.jpg")
+    st.video('https://youtu.be/117ufXEhzRQ?si=j3sY7-sKcm823gee')
+    st.write("""Hadestown é um musical criado pela cantora e compositora Anaïs Mitchell, 
+    que reimagina dois mitos da Grécia Antiga: o de Orfeu e Eurídice e o de Hades e Perséfone. 
+    A história se passa em um mundo com estética inspirada na Grande Depressão, misturando elementos 
+    industriais com um clima quase mítico. A narrativa acompanha Orfeu, um jovem músico sonhador, 
+    que se apaixona por Eurídice, uma garota marcada pela pobreza e pela instabilidade, criando um 
+    contraste entre esperança e sobrevivência.
 
-    st.write("""
-Reconta o mito de Orfeu e Eurídice em um mundo inspirado na Grande Depressão,
-com uma trilha sonora folk e jazz.
-""")
-
-# 🌱 LITTLE SHOP OF HORRORS
+    Ao longo do musical, Eurídice acaba sendo levada para Hadestown, um submundo controlado por
+    Hades, onde trabalhadores vivem em condições difíceis e repetitivas. Determinado a resgatá-la, 
+    Orfeu embarca em uma jornada até esse mundo subterrâneo, usando sua música como principal força. 
+    Paralelamente, o relacionamento entre Hades e Perséfone também é explorado, mostrando um casamento 
+    em crise que influencia diretamente o equilíbrio entre os mundos. A história mistura romance,
+    sacrifício e crítica social, criando uma atmosfera intensa e emocional.""")
+    st.image("https://i.pinimg.com/736x/ba/73/93/ba7393c0be1a239c63ac6864e7ea4891.jpg")
+    st.write("""O musical é conhecido por seu estilo único, que combina folk, jazz e blues, 
+    além de uma narrativa cíclica — ou seja, uma história que se repete, mesmo quando já sabemos o final. 
+    Diferente de muitos musicais tradicionais, Hadestown enfatiza mais a experiência emocional do que o 
+    final feliz, reforçando a ideia de que algumas histórias precisam ser contadas repetidamente. 
+    Essa abordagem torna o espetáculo profundamente marcante e reflexivo, destacando temas como amor, 
+    escolha e consequência.""")
+    
 elif st.session_state.musical == "LittleShop":
     st.title("Little Shop of Horrors")
-    st.image("https://upload.wikimedia.org/wikipedia/en/6/6c/Little_shop_of_horrors_poster.jpg")
+    st.video('https://youtu.be/80DqYSIQew8?si=7MpFUJOGADEyyz7n')
+    st.write("""Little Shop of Horrors é um musical criado por Alan Menken (música) e Howard Ashman 
+    (letras e roteiro), baseado no filme de 1960. A história acompanha Seymour, um jovem tímido que
+    trabalha em uma floricultura decadente e descobre uma planta misteriosa que passa a atrair clientes 
+    e trazer sucesso ao negócio. No entanto, essa planta — chamada Audrey II — revela rapidamente sua 
+    natureza perigosa, exigindo sangue humano para crescer, o que leva a narrativa por um caminho cada 
+    vez mais sombrio e moralmente complexo, misturando comédia, terror e crítica social.
 
-    st.write("""
-Conta a história de um jovem que cultiva uma planta carnívora misteriosa
-que traz sucesso… mas exige sacrifícios assustadores.
-""")
+    Ao longo do musical, Seymour se vê dividido entre o desejo de melhorar de vida, conquistar o amor
+    de Audrey e lidar com as consequências das escolhas que faz para manter a planta viva. A obra se 
+    destaca pelo tom irreverente, pelas influências de rock e doo-wop na trilha sonora e por seu humor
+    ácido, que contrasta com a crescente tensão da história. Essa combinação faz com que o público se 
+    envolva tanto com o lado cômico quanto com o suspense da trama, tornando o musical um clássico 
+    cult do teatro musical.""")
+    st.image("https://i.pinimg.com/1200x/a0/be/3b/a0be3bdf38a6b537f4ea7f0d931874b8.jpg")
+    st.write("""Desde sua estreia Off-Broadway em 1982, Little Shop of Horrors recebeu diversos
+    reconhecimentos, incluindo o prêmio de Melhor Musical no Drama Desk Awards e no Outer Critics 
+    Circle Awards. Ao longo dos anos, ganhou múltiplos revivals e adaptações consolidando seu status 
+    como um dos musicais mais influentes e duradouros do gênero, especialmente no circuito 
+    alternativo e Off-Broadway.""")
