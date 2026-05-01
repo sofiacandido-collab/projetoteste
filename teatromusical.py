@@ -166,28 +166,30 @@ if "musical" not in st.session_state:
 if st.session_state.musical:
     if st.button("⬅️ Voltar"):
         st.session_state.musical = None
-
+ 
 if st.session_state.musical is None:
     st.title("Produções mais famosas")
-
     st.write("Clique em um musical para ver mais:")
 
- if st.button("Wicked"):
-    st.session_state.musical = "Wicked"
-    st.rerun()
+    if st.button("Hamilton"):
+        st.session_state.musical = "Hamilton"
+        st.rerun()
 
-if st.button("Beetlejuice"):
-    st.session_state.musical = "Beetlejuice"
-    st.rerun()
+    if st.button("Wicked"):
+        st.session_state.musical = "Wicked"
+        st.rerun()
 
-if st.button("Hadestown"):
-    st.session_state.musical = "Hadestown"
-    st.rerun()
+    if st.button("Beetlejuice"):
+        st.session_state.musical = "Beetlejuice"
+        st.rerun()
 
-if st.button("Little Shop of Horrors"):
-    st.session_state.musical = "LittleShop"
-    st.rerun()
+    if st.button("Hadestown"):
+        st.session_state.musical = "Hadestown"
+        st.rerun()
 
+    if st.button("Little Shop of Horrors"):
+        st.session_state.musical = "LittleShop"
+        st.rerun()
 
 elif st.session_state.musical == "Hamilton":
     st.title("Hamilton")
