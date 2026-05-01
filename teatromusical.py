@@ -245,7 +245,7 @@ elif st.session_state.musical == "Beetlejuice":
     abordagem moderna ajudaram a diferenciar a produção dentro do cenário tradicional do teatro musical.""")
     st.image("https://i.pinimg.com/736x/94/b2/3d/94b23d618a049222fbc5a8be96e40464.jpg")
     st.write("""Em termos de reconhecimento, Beetlejuice recebeu diversas indicações ao Tony Awards, 
-    incluindo categorias importantes como Melhor Musical e Melhor Livro. Embora não tenha sido um grande 
+    incluindo categorias importantes como Melhor Musical e Melhor Roteiro. Embora não tenha sido um grande 
     vencedor em número de prêmios, o espetáculo se destacou pelo impacto cultural e pelo engajamento do 
     público, além de expandir sua presença com turnês e produções internacionais, consolidando-se como 
     um musical contemporâneo de grande relevância.""")
