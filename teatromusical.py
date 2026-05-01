@@ -229,15 +229,28 @@ elif st.session_state.musical == "Wicked":
 
 
 
-# 🪲 BEETLEJUICE
 elif st.session_state.musical == "Beetlejuice":
     st.title("Beetlejuice")
-    st.image("https://upload.wikimedia.org/wikipedia/en/3/3a/Beetlejuice_musical.jpg")
+    st.video('https://youtu.be/QMrt9demNeA?si=-n4HREKEtmOrnLPj')
+    st.write(""" Beetlejuice é um musical baseado no filme de Beetlejuice, com música e letras de Eddie Perfect. 
+    A produção estreou na Broadway em 2019, no Winter Garden Theatre, trazendo uma adaptação irreverente, 
+    sombria e extremamente humorada da história original. O espetáculo acompanha Lydia Deetz, uma adolescente 
+    fascinada pela morte, que acaba cruzando o caminho do excêntrico e caótico  Beetlejuice, resultando
+    em uma narrativa cheia de sarcasmo, energia e números musicais marcantes.
 
-    st.write("""
-Uma comédia sombria sobre uma garota que faz amizade com um espírito caótico,
-misturando humor, morte e muito caos.
-""")
+    Apesar de sua temporada inicial na Broadway ter sido relativamente curta, Beetlejuice rapidamente
+    conquistou uma base de fãs muito dedicada, especialmente entre o público mais jovem. Após ser 
+    encerrado em 2020, o musical ganhou uma nova chance e retornou aos palcos em 2022, desta vez 
+    no Marquis Theatre, demonstrando a força de sua popularidade. Sua estética única, humor ácido e 
+    abordagem moderna ajudaram a diferenciar a produção dentro do cenário tradicional do teatro musical.""")
+    st.image("https://i.pinimg.com/736x/94/b2/3d/94b23d618a049222fbc5a8be96e40464.jpg")
+    st.write("""Em termos de reconhecimento, Beetlejuice recebeu diversas indicações ao Tony Awards, 
+    incluindo categorias importantes como Melhor Musical e Melhor Livro. Embora não tenha sido um grande 
+    vencedor em número de prêmios, o espetáculo se destacou pelo impacto cultural e pelo engajamento do 
+    público, além de expandir sua presença com turnês e produções internacionais, consolidando-se como 
+    um musical contemporâneo de grande relevância.""")
+
+    
 
 # 🌿 HADESTOWN
 elif st.session_state.musical == "Hadestown":
